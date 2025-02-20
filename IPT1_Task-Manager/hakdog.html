@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="hakdog.css">
+    <script src="hakdog.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <p id="current-time"></p>
+        <div class="summary" id="tasksSummary"></div>
+        <input type="text" id="title" placeholder="Task Title">
+        <textarea id="description" placeholder="Task Description"></textarea>
+        <button onclick="addTask()">Add Task</button>
+        <h2>Tasks</h2>
+        <div id="tasks"></div>
+    </div>
+</body>
+</html>
